@@ -1,0 +1,103 @@
+@import '~antd/lib/style/themes/default.less';
+@import '../../utils/utils.less';
+
+.taskBaseInfo {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+}
+
+.content {
+  position: absolute;
+  top: 42px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs :global(.ant-tabs-content) {
+  flex-grow: 1;
+}
+
+.tabs :global(.ant-tabs-bar) {
+
+}
+
+.codeErrMsg {
+  position: absolute;
+  bottom: 0;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.newtask {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  background: #fceedb;
+  border-bottom: 1px solid #f0ad4e;
+  border-top: 1px solid #f0ad4e;
+  margin-top: -1px;
+  padding-left: 5px;
+  padding-right: 70px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer
+}
+
+.newtask:hover, .newtask:hover .task-more {
+  background: #f8d9ac
+}
+
+.newtask .task-callback {
+  color: #ec971f
+}
+
+.newtask .task-url {
+  font-size: 95%;
+  text-decoration: underline;
+  font-weight: lighter;
+  color: #428bca
+}
+
+.newtask .task-more {
+  position: absolute;
+  right: 33px;
+  top: 0;
+  float: right;
+  color: #f0ad4e;
+  padding: 0 10px;
+  background: #fceedb;
+  border-radius: 10px
+}
+
+.newtask .task-run {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 80%;
+  padding: 0 10px 0 30px;
+  float: right;
+  border-bottom: 1px solid #a3d7a3;
+  border-top: 1px solid #a3d7a3;
+  background: #80c780;
+  color: #fff;
+  text-shadow: 0 0 10px #fff;
+  font-weight: 700
+}
+
+.newtask .task-run:hover {
+  background: #5cb85c
+}
+
+.task-show pre {
+  margin: 5px 5px 10px
+}

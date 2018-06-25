@@ -1,0 +1,1 @@
+{"version":3,"file":"ELKMiddleware.js","sourceRoot":"","sources":["ELKMiddleware.ts"],"names":[],"mappings":";;;;;;;;;;;;;;AAAA,+BAAmD;AACnD,mCAAmC;AAGnC,IAAM,aAAa,GAAnB;IAEW,GAAG,CAAS,IAA0B;QACzC,iBAAiB;QACjB,IAAI,EAAE,CAAA;QACN,eAAe;QACf,cAAc;IAClB,CAAC;CACJ,CAAA;AANG;IAAY,WAAA,WAAI,EAAE,CAAA;;;;wCAKjB;AAPC,aAAa;IADlB,iBAAU,CAAC,EAAC,KAAK,EAAE,CAAC,EAAC,CAAC;GACjB,aAAa,CAQlB"}
