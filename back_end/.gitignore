@@ -7,5 +7,5 @@ yarn-error.log*
 
 /.idea/
 /config/default.ts
-/data/
+/data/*.json
 /node_modules/
